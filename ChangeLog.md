@@ -1,3 +1,7 @@
+## 2.6.1 (16 September 2013)
+
+* Adapted for use with Pilau projects
+
 ## 2.6.0 (7 July 2013)
 
 * Updating `PluginName` to `Plugin_Name` to follow the WordPress Coding Standards

@@ -5,7 +5,6 @@
  * @package   Plugin_Name
  * @author    Your Name <email@example.com>
  * @license   GPL-2.0+
- * @link      http://example.com
  * @copyright 2013 Your Name or Company Name
  */
 

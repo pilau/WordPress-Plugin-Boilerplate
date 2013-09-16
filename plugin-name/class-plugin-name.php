@@ -1,11 +1,11 @@
 <?php
+
 /**
  * Plugin Name.
  *
  * @package   Plugin_Name
  * @author    Your Name <email@example.com>
  * @license   GPL-2.0+
- * @link      http://example.com
  * @copyright 2013 Your Name or Company Name
  */
 
@@ -83,13 +83,13 @@ class Plugin_Name {
 		add_action( 'admin_enqueue_scripts', array( $this, 'enqueue_admin_scripts' ) );
 
 		// Load public-facing style sheet and JavaScript.
-		add_action( 'wp_enqueue_scripts', array( $this, 'enqueue_styles' ) );
-		add_action( 'wp_enqueue_scripts', array( $this, 'enqueue_scripts' ) );
+		//add_action( 'wp_enqueue_scripts', array( $this, 'enqueue_styles' ) );
+		//add_action( 'wp_enqueue_scripts', array( $this, 'enqueue_scripts' ) );
 
 
 		// Define custom functionality. Read more about actions and filters: http://codex.wordpress.org/Plugin_API#Hooks.2C_Actions_and_Filters
-		add_action( 'TODO', array( $this, 'action_method_name' ) );
-		add_filter( 'TODO', array( $this, 'filter_method_name' ) );
+		//add_action( 'TODO', array( $this, 'action_method_name' ) );
+		//add_filter( 'TODO', array( $this, 'filter_method_name' ) );
 
 	}
 
